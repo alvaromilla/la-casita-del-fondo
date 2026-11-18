@@ -1,0 +1,74 @@
+[
+  {
+    "nombre": "Mickey Mouse",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/mickey.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20Mickey%20Mouse"
+  },
+  {
+    "nombre": "Payaso PlimPlim",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/payaso.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20Payaso%20PlimPlim"
+  },
+  {
+    "nombre": "Gallo Bartolito",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/gallo_bartolito.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20Gallo%20Bartolito"
+  },
+  {
+    "nombre": "Oso Yogi",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/oso_yogi.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20Oso%20Yogi"
+  },
+  {
+    "nombre": "Pantera Rosa",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/panterarosa.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20Pantera%20Rosa"
+  },
+  {
+    "nombre": "Sapo Pepe",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/sapo_pepe.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20Sapo%20Pepe"
+  },
+  {
+    "nombre": "Chase",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/Chase.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20Chase%20"
+  },
+  {
+    "nombre": "Minnie Mouse",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/Minni.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20Minnie%20Mouse"
+  },
+  {
+    "nombre": "Messi",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/messi.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20de%20Messi"
+  },
+  {
+    "nombre": "Marshall",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/Marshall.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20De%20Marshall"
+  },
+  {
+    "nombre": "La vaca Lola",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/la_vaca_lola.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20Vaca%20Lola"
+  },
+  {
+    "nombre": "Peppa Pig",
+    "tipo": "Adultos",
+    "imagen": "img/cabezones/pepa.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20cabez%C3%B3n%20Pepa%20Pig"
+  }
+]

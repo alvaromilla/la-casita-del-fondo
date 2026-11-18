@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Chucky",
+    "tipo": "Infantil",
+    "imagen": "img/halloween/chucky_infantil.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20disfraz%20de%20Chucky"
+  },
+  {
+    "nombre": "Payaso Asesino",
+    "tipo": "Infantil",
+    "imagen": "img/halloween/payaso_asesino.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20payaso%20de%20asesino"
+  },
+  {
+    "nombre": "Joker",
+    "tipo": "Infantil",
+    "imagen": "img/halloween/Joker_infantil.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20disfraz%20de%20Joker"
+  },
+  {
+    "nombre": "Bruja",
+    "tipo": "Infantil",
+    "imagen": "img/halloween/bruja.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20disfraz%20de%20Bruja"
+  },
+  {
+    "nombre": "Harley Quinn",
+    "tipo": "Infantil",
+    "imagen": "img/halloween/Harley_Quinn.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20disfraz%20de%20Harley"
+  }
+]

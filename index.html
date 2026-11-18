@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>La Casita del Fondo - Alquiler de Disfraces</title>
+<link href="css/estilos.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<div class="marca">
+<img alt="Logo La Casita del Fondo" src="img/logo.webp"/>
+<div>
+<h1>La Casita del Fondo</h1>
+<p>Alquiler de Disfraces</p>
+</div>
+</div>
+</header>
+<main>
+<section class="inicio">
+<h2>¡Encontrá el disfraz ideal para tu próxima fiesta!</h2>
+<div class="buscador">
+<input id="buscar" placeholder="Buscá un disfraz..." type="text"/>
+<button id="boton-buscar">Buscar</button>
+</div>
+</section>
+<section class="categorias">
+<h2>Explorá nuestros disfraces</h2>
+<div class="lista-categorias">
+<button data-categoria="infantiles" type="button">👑 Infantiles</button>
+<button data-categoria="adultos" type="button">🎩 Adultos</button>
+<button data-categoria="personajes" type="button">🦸 Personajes</button>
+<button data-categoria="folclore" type="button">🧉 Folclore</button>
+<button data-categoria="epocas" type="button">🤠 Épocas</button>
+<button data-categoria="halloween" type="button">🎃 Halloween</button>
+<button data-categoria="cabezones" type="button">🎭 Cabezones</button>
+<button data-categoria="inflables" type="button">🎈 Inflables</button>
+<button data-categoria="todos" type="button">Ver todos</button>
+</div>
+</section>
+<!-- CATEGORÍA CABEZONES -->
+<section class="catalogo" id="cabezones">
+<h2>🎭 Nuestros Cabezones</h2>
+<div class="contenedor-disfraces"></div>
+</section>
+<!-- CATEGORÍA HALLOWEEN -->
+<section class="catalogo" id="halloween">
+<h2>🎃 Halloween: ¡El terror se disfraza!</h2>
+<div class="contenedor-disfraces"></div>
+</section>
+<!-- CATEGORIA INFLABLES --> 
+
+<section class="catalogo" id="inflables">
+    <h2>🎈 Disfraces Inflables: ¡Diversión a lo grande!</h2>
+    <div class="contenedor-disfraces"></div>
+</section>
+
+</main>
+<div class="visor-imagen" id="visor-imagen">
+<span class="cerrar-visor">×</span>
+<img alt="Disfraz ampliado" id="imagen-ampliada"/>
+</div>
+<script src="js/app.js?v=2"></script>
+</body>
+</html>

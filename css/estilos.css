@@ -1,0 +1,251 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff8fc;
+    color: #351344;
+}
+
+header {
+    background: #421653;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    color: #ffd326;
+    font-size: 20px;
+}
+
+.inicio {
+	background-image: url("../img/payaso.webp");
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align: left;
+
+    padding: 140px 8%;
+    min-height: 550px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inicio h2 {
+    font-size: 42px;
+    max-width: 550px;
+    margin: 0 0 30px 0;
+    text-shadow: 2px 2px 5px #351344;
+}
+
+.buscador {
+    display: flex;
+    max-width: 650px;
+    width: 100%;
+    margin: 0;
+    gap: 10px;
+}
+
+.buscador input {
+    flex: 1;
+    min-width: 0;
+    padding: 16px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.buscador button {
+    background: #ffd326;
+    color: #351344;
+    border: none;
+    border-radius: 25px;
+    padding: 16px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.categorias {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.lista-categorias {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.lista-categorias button {
+    background: #f6ddff;
+    padding: 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .inicio {
+        padding: 65px 15px;
+    }
+
+    .inicio h2 {
+        font-size: 26px;
+    }
+
+    .buscador {
+        flex-direction: column;
+    }
+}
+
+/* Tamaño del logo */
+
+.marca img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.nombre-negocio {
+    text-align: left;
+}
+
+.nombre-negocio h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.nombre-negocio p {
+    margin: 5px 0 0;
+    font-size: 16px;
+    color: #ffd326;
+}
+.catalogo {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.tarjeta-disfraz {
+    width: 260px;
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 18px;
+    box-shadow: 0 4px 15px #0002;
+}
+
+.tarjeta-disfraz img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+    background: white;
+    border-radius: 12px;
+}
+
+.disponible {
+    display: block;
+    color: green;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.boton-whatsapp {
+    display: block;
+    padding: 12px;
+    background: #25d366;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+/* Organización de disfraces en filas */
+
+.contenedor-disfraces {
+    display: grid;
+    grid-template-columns: repeat(4, 260px);
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.contenedor-disfraces .tarjeta-disfraz {
+    margin: 0;
+}
+
+/* Adaptación a pantallas más pequeñas */
+
+@media (max-width: 1200px) {
+    .contenedor-disfraces {
+        grid-template-columns: repeat(3, 260px);
+    }
+}
+
+@media (max-width: 900px) {
+    .contenedor-disfraces {
+        grid-template-columns: repeat(2, 260px);
+    }
+}
+
+@media (max-width: 600px) {
+    .contenedor-disfraces {
+        grid-template-columns: minmax(0, 260px);
+    }
+}
+
+.tipo-disfraz {
+    display: block;
+    color: #8E44AD;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.tarjeta-disfraz img {
+    cursor: zoom-in;
+}
+/* Permite hacer zoom en la imagenes */
+
+.visor-imagen {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+}
+
+.visor-imagen img {
+    max-width: 95%;
+    max-height: 90vh;
+    object-fit: contain;
+}
+
+.cerrar-visor {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
