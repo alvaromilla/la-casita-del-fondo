@@ -4,5 +4,12 @@
     "tipo": "Infantil",
     "imagen": "img/atuendos/dama_antigua.webp",
     "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20vestido%20de%20dama%20antigua"
+  },
+  
+  {
+    "nombre": "Vestido Folclore Violeta",
+    "tipo": "Infantil",
+    "imagen": "img/atuendos/vestido_folclore_violeta.webp",
+    "whatsapp": "https://wa.me/?text=Hola%2C%20quiero%20consultar%20por%20el%20vestido%20de%20folclore%20infantil"
   }
 ]
