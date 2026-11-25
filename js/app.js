@@ -1,5 +1,5 @@
 // Catálogo de disfraces: los datos están en datos/*.json
-const categorias = ["cabezones", "halloween","inflables"];
+const categorias = ["cabezones", "halloween", "inflables", "atuendos"];
 const botones = document.querySelectorAll(".lista-categorias button");
 const secciones = document.querySelectorAll(".catalogo");
 const visor = document.getElementById("visor-imagen");
